@@ -1,0 +1,138 @@
+# =======================
+# Python
+# =======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env.bak
+
+# uv
+.python-version
+
+# Distribution / packaging
+.eggs/
+*.whl
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytest.ini
+junit-*.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+# .python-version  (kept — used by uv to pin the interpreter)
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff / linters
+.ruff_cache/
+
+# =======================
+# Environment / secrets
+# =======================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# =======================
+# IDEs & editors
+# =======================
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# =======================
+# macOS
+# =======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Icon\r
+
+# =======================
+# Logs & databases
+# =======================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# =======================
+# Claude Code
+# =======================
+.claude/
+
+# =======================
+# Misc
+# =======================
+*.bak
+*.tmp
+*.orig
+Thumbs.db

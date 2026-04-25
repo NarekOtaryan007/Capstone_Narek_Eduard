@@ -1,0 +1,50 @@
+# =======================
+# Line endings
+# =======================
+# Normalise all text files to LF on commit; check out as native on each OS
+* text=auto eol=lf
+
+# Explicitly declare common text file types
+*.py        text eol=lf
+*.toml      text eol=lf
+*.cfg       text eol=lf
+*.ini       text eol=lf
+*.md        text eol=lf
+*.txt       text eol=lf
+*.json      text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.js        text eol=lf
+*.ts        text eol=lf
+*.sh        text eol=lf
+
+# Lock file — keep as-is, treat as text
+uv.lock     text eol=lf
+
+# =======================
+# Binary files
+# =======================
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.svg       binary
+*.webp      binary
+*.pdf       binary
+*.zip       binary
+*.tar.gz    binary
+*.whl       binary
+*.pyc       binary
+*.db        binary
+*.sqlite    binary
+*.sqlite3   binary
+*.xlsx      binary
+*.xls       binary
+
+# =======================
+# Git diff drivers
+# =======================
+*.py    diff=python
